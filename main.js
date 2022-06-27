@@ -29,7 +29,7 @@ function gotPoses(results) {
     if (results.length > 0) {
         console.log(results);
          nosex =  results[0].pose.nose.x -40;
-         nosey =  results[0].pose.nose.y +1;
+         nosey =  results[0].pose.nose.y -7;
          console.log("nosex= " + nosex);
          console.log("nosey= " + nosey);
     }
